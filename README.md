@@ -17,16 +17,19 @@ The Arduino has 10 bits of resolution, (10^2 = 1024)
 ## Part B. RGB LED
 
 **How might you use this with only the parts in your kit? Show us your solution.**
+video
 
 ## Part C. Voltage Varying Sensors 
  
 ### 1. FSR, Flex Sensor, Photo cell, Softpot
 
 **a. What voltage values do you see from your force sensor?**
+between 0 and 1000 (depending on how hard i squeeze)
 
 **b. What kind of relationship does the voltage have as a function of the force applied? (e.g., linear?)**
 
 **c. Can you change the LED fading code values so that you get the full range of output voltages from the LED when using your FSR?**
+took out the resistor
 
 **d. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?**
 

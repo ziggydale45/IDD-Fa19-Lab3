@@ -32,8 +32,15 @@ between 0 and 1000 (depending on how hard i squeeze)
 took out the resistor
 
 **d. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?**
+Using a 10k resistor i get about 80 - 500 units
+
+
+
 
 **e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**
+flex: logarithmic
+the photo cell and the soft spot: linear
+
 
 ### 2. Accelerometer
  

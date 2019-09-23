@@ -27,6 +27,7 @@ video
 between 0 and 1000 (depending on how hard i squeeze)
 
 **b. What kind of relationship does the voltage have as a function of the force applied? (e.g., linear?)**
+logarithmic
 
 **c. Can you change the LED fading code values so that you get the full range of output voltages from the LED when using your FSR?**
 took out the resistor
@@ -39,7 +40,8 @@ Using a 10k resistor i get about 80 - 500 units
 
 **e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**
 flex: logarithmic
-the photo cell and the soft spot: linear
+
+photo cell and the soft spot: linear
 
 
 ### 2. Accelerometer

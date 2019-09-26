@@ -17,7 +17,7 @@ The Arduino has 10 bits of resolution, (10^2 = 1024)
 ## Part B. RGB LED
 
 **How might you use this with only the parts in your kit? Show us your solution.**
-video
+[video](https://youtu.be/uUVARGv0774)
 
 ## Part C. Voltage Varying Sensors 
  

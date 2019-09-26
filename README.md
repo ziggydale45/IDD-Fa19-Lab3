@@ -166,10 +166,13 @@ void loop() {
 ### 1. Reading and writing values to the Arduino EEPROM
 
 **a. Does it matter what actions are assigned to which state? Why?**
+One of the functions of state is defining order, and the order of actions is important. There's no reason to clear the EEPROM if you haven't written anything to it and there's no reason to read the EEPROM if you haven't written anything to it. 
 
 **b. Why is the code here all in the setup() functions and not in the loop() functions?**
+States aren't continous, they are only triggered when the main file calls them.
 
 **c. How many byte-sized data samples can you store on the Atmega328?**
+1024 bytes
 
 **d. How would you get analog data from the Arduino analog pins to be byte-sized? How about analog data from the I2C devices?**
 

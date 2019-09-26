@@ -157,16 +157,10 @@ void loop() {
 }
 ```
 
-### 3. IR Proximity Sensor
-
-**a. Describe the voltage change over the sensing range of the sensor. A sketch of voltage vs. distance would work also. Does it match up with what you expect from the datasheet?**
-
-**b. Upload your merged code to your lab report repository and link to it here.**
-
 ## Optional. Graphic Display
 
 **Take a picture of your screen working insert it here!**
-
+![picture](https://github.com/ziggydale45/IDD-Fa19-Lab3/blob/master/IMG_0438.JPG)
 ## Part D. Logging values to the EEPROM and reading them back
  
 ### 1. Reading and writing values to the Arduino EEPROM

@@ -218,6 +218,7 @@ void doState2() {
 ### 2. Design your logger
  
 **a. Insert here a copy of your final state diagram.**
+![pic](https://github.com/ziggydale45/IDD-Fa19-Lab3/upload/master)
 
 ### 3. Create your data logger!
  

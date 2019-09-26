@@ -190,3 +190,4 @@ use EEPROM.put(address, data)
 ### 3. Create your data logger!
  
 **a. Record and upload a short demo video of your logger in action.**
+[video](https://www.youtube.com/watch?v=IWjhUn7afD8)

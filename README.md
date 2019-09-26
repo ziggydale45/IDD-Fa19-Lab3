@@ -183,6 +183,38 @@ use EEPROM.put(address, data)
 
 **Upload your modified code that takes in analog values from your sensors and prints them back out to the Arduino Serial Monitor.**
 
+```int addr = 0;
+int FSRPin = 2;
+
+
+void state2Loop() {
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+
+  Serial.println("Writing FSR value to EEPROM");
+
+  int val = analogRead(FSRPin) / 4;
+  Serial.println(val);
+  Serial.println(addr);
+  
+  EEPROM.write(addr, val);
+
+  addr = addr + 1;
+  if (addr == EEPROM.length()) {
+    addr = 0;
+  }
+
+  
+  Serial.println("String committed to EEPROM!");
+  delay(1000);
+  
+}
+
+void doState2() {
+//  if (lastState != 2) state2Setup();
+  state2Loop();
+}
+```
+
 ### 2. Design your logger
  
 **a. Insert here a copy of your final state diagram.**
